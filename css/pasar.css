@@ -1,0 +1,73 @@
+/* font */
+@font-face {
+    font-family: nunito;
+    src: url(font/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: nunitobold;
+    src: url(font/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: qdash;
+    src: url(font/Quicksand_Dash.otf);
+}
+
+@font-face {
+    font-family: qbolds;
+    src: url(font/Quicksand_Bold.otf);
+}
+
+@font-face {
+    font-family: qboldi;
+    src: url(font/Quicksand_Bold_Oblique.otf);
+}
+
+@font-face {
+    font-family: exbold;
+    src: url(font/Quicksand_Book.otf);
+}
+
+/* -- */
+
+/* awal */
+.img2 img {
+    height: 600px;
+    margin-top: 10px;
+
+}
+
+.kotak {
+    float: right;
+    margin-top: 50px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.30);
+}
+
+.judul h1 {
+    margin-top: 25px;
+    font-size: 50px;
+    font-family: qbolds;
+    color: #294375;
+}
+
+.judul h3 {
+    margin-top: 30px;
+    margin-left: 43px;
+    font-family: nunitobold;
+}
+
+.judul h5 {
+    background-color: #294375;
+    height: 5px;
+    width: 100%;
+}
+
+.isi {
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+/* -- */

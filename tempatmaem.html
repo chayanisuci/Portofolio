@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="asset/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/restaurant.css">
+    <link rel="stylesheet" href="css/headerstyle.css">
+    <link rel="stylesheet" href="css/bintang.css">
+    <script src="asset/js/bootstrap.min.js"></script>
+
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="asset/css/animate.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="asset/css/bootstrap.css">
+    <!-- Social icons -->
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="asset/css/magnific-popup.css">
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="asset/css/flexslider.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="asset/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="asset/css/owl.theme.default.min.css">
+
+    <!-- Date Picker -->
+    <link rel="stylesheet" href="asset/css/bootstrap-datepicker.css">
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid" style="background-color: white">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only" style="color: black;">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/icon/logoku.png" alt=""></a>
+                </div>
+    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav spasi">
+                        <li class="active"><a href="ddolan.html">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">Booking <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="tempatmaem.html">Restauran</a></li>
+                                <li><a href="tiket.html"> Tiket Wisata</a></li>
+                                <li><a href="hotel.html">Penginapan</a></li>
+                                <li><a href="transportasi.html">Transportasi</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="destinasi.html">Destinasi</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right spasi2">
+                        <li><a href="login.html" style="color: #d9534f;"><span class="glyphicon glyphicon-user"></span>
+                                Sign Up</a></li>
+                    </ul>
+                    <ul class="languagepicker roundborders large" style="margin-right: 10px;">
+                        <a href="#id">
+                            <li>Bahasa</li>
+                        </a>
+                        <a href="#id">
+                            <li><img src="img/indonesia.png" />Indonesia</li>
+                        </a>
+                        <a href="#en">
+                            <li><img src="http://i64.tinypic.com/fd60km.png" />English</li>
+                        </a>
+                    </ul>
+    
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!-- akhir nav -->
+    
+
+    <!-- header -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <div id="header">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li style="background-image: url(img/HI520363725.png);">
+                            <div class="overlay"></div>
+
+                            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
+                                <div class="slider-text-inner text-center">
+                                    <h1>Booking Restaurant</h1>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- akhir -->
+
+    <!-- btime -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="btime">
+
+                <div class="boxb text-center col-md-2">
+                    <p>Restoran Tujuan Anda</p>
+                    <input type="text" style="border:none; height: 50px; width: 200px;">
+                </div>
+                <div class="boxb text-center col-md-2">
+                    <p>Tanggal Pesan</p>
+                    <input type="date" style="border:none; height: 50px; width: 200px; text-align: center;">
+                </div>
+                <div class="boxb text-center col-md-2">
+                    <p>Jumlah Orang</p>
+                    <input type="text" placeholder="1-5" style="border:none; height: 50px; width: 200px; text-align: center;">
+                </div>
+                <div class="boxb text-center col-md-2">
+                    <p>Waktu Makan</p>
+                    <input type="text" placeholder="1-5" style="border:none; height: 50px; width: 200px; text-align: center;">
+                </div>
+                <div class="boxb text-center col-md-2">
+                    <div class="btn btn-group" id="button-cari"> Cari Restoran
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- -- -->
+
+    <!-- filter -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12 hotel">
+                <div class="col-md-2 boxf">
+                    <h5>Filter Restauran</h5>
+                    <hr style=" border: 1px solid black" ;>
+                    <p>Penilaian Tempat</p>
+                    <input type="checkbox"> Istimewa <br>
+                    <input type="checkbox" style="margin-top:13px;"> Sangat Bagus <br>
+                    <input type="checkbox" style="margin-top:13px;"> Bagus <br>
+                    <input type="checkbox" style="margin-top:13px;"> Nyaman <br>
+                    <input type="checkbox" style="margin-top:13px;"> Lokasi Terdekat <br>
+
+                    <hr style=" border: 1px solid black" ;>
+
+                    <p>Makanan khas</p>
+                    <input type="checkbox"> Indonesia <br>
+                    <input type="checkbox" style="margin-top:13px;"> Italia <br>
+                    <input type="checkbox" style="margin-top:13px;"> Jawa <br>
+
+                    <hr style=" border: 1px solid black" ;>
+                    <p>Peringkat Bintang</p>
+                    <div class="rating-control">
+                        <input type="checkbox" style="margin-top:13px;">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <br>
+                        <input type="checkbox" style="margin-top:13px;">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <br>
+                        <input type="checkbox" style="margin-top:13px;">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <br>
+                        <input type="checkbox" style="margin-top:13px;">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <br>
+                    <div class="btn btn-default" id="btn-cari">Cari filter</div>
+                </div>
+
+                <div class="col-md-10 boxroom">
+                    <img src="img/icon/placeholder.png" alt="" style=" height: 40px;">
+                    Kota Batu, Jawa Timur, Indonesia
+                </div>
+                <div class="col-md-10 boxh text-center">
+                    <p>Urutkan Berdasarkan | <a href="#"><img src="img/icon/checked.png" alt=""> Rekomendasi Kami</a> |
+                        <img src="img/icon/star.png" alt=""> Bintang |<img src="img/icon/thumbs-up.png" alt="" style="margin-left:10px">
+                        Penilaian
+                        Tamu Restoran</p>
+                </div>
+
+                <div class="col-md-10 boxp">
+                    <img src="img/Restoran-Harmoni-Malang.jpg" alt="" class="col-md-3">
+                    <p class="col-md-8 namaresto">Restoran Harmoni</p>
+                    <h4 class="col-md-8 price">Rp. 50k - 100k,- / Paket</h4>
+                    <p class="col-md-8" style="margin-top: 10px"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></p>
+                    <img src="img/harmoni.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+                    <img src="img/harmoni2.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+                    <img src="img/harmoni3.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+                    <img src="img/harmoni.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+
+                    <div class="timer col-md-7 text-center">
+                        <a href="">
+                            <p class="col-md-2" style="margin-left: -5px;">09:00 AM</p>
+                        </a>
+                        <a href="">
+                            <p class="col-md-2">13:00 AM</p>
+                        </a>
+                        <a href="">
+                            <p class="col-md-2">18:30 PM</p>
+                        </a>
+                        <a href="">
+                            <p class="col-md-2">22:00 PM</p>
+                        </a>
+                    </div>
+
+
+                    <div class="btn btn-default" id="btnpesan">
+                        Pesan
+                    </div>
+                </div>
+
+                <div class="col-md-10 boxp">
+                    <img src="img/icon/2016611153425.jpg" alt="" class="col-md-3">
+                    <p class="col-md-8 namaresto">Waroeng Bamboe</p>
+                    <h4 class="col-md-8 price">Rp. 50k - 100k,- / Paket</h4>
+                    <p class="col-md-8" style="margin-top: 10px"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></p>
+                    <img src="img/bambu.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+                    <img src="img/bambu2.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+                    <img src="img/bambu3.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+                    <img src="img/bambu4.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+                    
+                    <div class="timer col-md-7 text-center">
+                        <a href="">
+                            <p class="col-md-2" style="margin-left: -5px;">09:00 AM</p>
+                        </a>
+                        <a href="">
+                            <p class="col-md-2">13:00 AM</p>
+                        </a>
+                        <a href="">
+                            <p class="col-md-2">18:30 PM</p>
+                        </a>
+                        <a href="">
+                            <p class="col-md-2">22:00 PM</p>
+                        </a>
+                    </div>
+
+
+                    <div class="btn btn-default" id="btnpesan">
+                        Pesan
+                    </div>
+                </div>
+
+                <div class="col-md-10 boxp">
+                    <img src="img/bet.jpg" alt="" class="col-md-3">
+                    <p class="col-md-8 namaresto">restoran Bethania</p>
+                    <h4 class="col-md-8 price">Rp. 50k - 100k,- / Paket</h4>
+                    <p class="col-md-8" style="margin-top: 10px"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></p>
+                    <img src="img/batania.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+                    <img src="img/bambu5.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+                    <img src="img/batania.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+                    <img src="img/bambu5.jpg" alt="" class="col-md-1" style="margin-top: 16px; height: 60px; width: 100px;">
+                    
+
+                    <div class="timer col-md-7 text-center">
+                        <a href="">
+                            <p class="col-md-2" style="margin-left: -5px;">09:00 AM</p>
+                        </a>
+                        <a href="">
+                            <p class="col-md-2">13:00 AM</p>
+                        </a>
+                        <a href="">
+                            <p class="col-md-2">18:30 PM</p>
+                        </a>
+                        <a href="">
+                            <p class="col-md-2">22:00 PM</p>
+                        </a>
+                    </div>
+
+
+                    <div class="btn btn-default" id="btnpesan">
+                        Pesan
+                    </div>
+                </div>
+
+
+
+                <div class="pagination col-md-12 text-center" style="margin-top: 60px;">
+                    <a href="#">&laquo;</a>
+                    <a class="active" href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">&raquo;</a>
+                </div>
+            </div>
+        </div>
+    </div> <!-- -- -->
+
+    <!-- bawah -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="kelebihan text-center">
+                <div class="text-1 col-md-4">
+                    <h5>Kami Menemukan Banyak Hotel</h5>
+                    <p>Bandingkan semua situs perjalanan terbaik dalam pencarian sederhana dan temukan
+                        yang anda cari
+                        dengan begitu
+                        mudah</p>
+                    <div class="garisbiru"></div>
+                </div>
+
+                <div class="text-1 col-md-4">
+                    <h5>Kami Menemukan Banyak Hotel</h5>
+                    <p>Bandingkan semua situs perjalanan terbaik dalam pencarian sederhana dan temukan
+                        yang anda cari
+                        dengan begitu
+                        mudah</p>
+                    <div class="garisbiru"></div>
+                </div>
+
+                <div class="text-1 col-md-4">
+                    <h5>Kami Menemukan Banyak Hotel</h5>
+                    <p>Bandingkan semua situs perjalanan terbaik dalam pencarian sederhana dan temukan
+                        yang anda cari
+                        dengan begitu
+                        mudah</p>
+                </div>
+            </div>
+            <br><br>
+
+
+        </div>
+    </div>
+    <!-- -- -->
+
+
+    </div>
+    <!-- jQuery -->
+    <script src="asset//js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="asset/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

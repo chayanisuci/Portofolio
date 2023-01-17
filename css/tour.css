@@ -1,0 +1,106 @@
+@font-face {
+    font-family: nunitobold;
+    src: url(font/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: qbolds;
+    src: url(font/Quicksand_Bold.otf);
+}
+
+@font-face {
+    font-family: qboldi;
+    src: url(font/Quicksand_Bold_Oblique.otf);
+}
+
+@font-face {
+    font-family: exbold;
+    src: url(font/Quicksand_Book.otf);
+}
+
+/* -- */
+/* swiper */
+.swiper {
+    height: 300px;
+    margin-left: 165px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 350px;
+}
+
+.swiper-slide {
+    width: 100px;
+    height: 200px;
+
+    text-align: center;
+    font-size: 18px;
+    background: rgb(236, 208, 208);
+    margin-left: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.hoverguide {
+    visibility: hidden;
+    background-color: rgba(7, 7, 7, 0.664);
+    width: 350px;
+    height: 170px;
+    margin-top: 180px;
+}
+
+#guide {
+    z-index: 5;
+    background-color: aliceblue;
+    font-family: qbolds;
+    padding: 15px 25px 15px 25px;
+    margin-top: -20px;
+    float: left;
+    margin-left: 30px;
+}
+
+.hoverguide p {
+    margin-top: 60px;
+    color: white;
+    font-family: nunito;
+    font-size: 15px;
+}
+
+.swiper-slide:hover .hoverguide {
+    visibility: visible
+}
+
+/* -- */
+
+/* paket */
+.cardpsn {
+    height: 300px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 !important;
+    margin-left: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+
+
+/* -- */

@@ -1,0 +1,228 @@
+/* font */
+@font-face {
+    font-family: nunito;
+    src: url(font/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: nunitobold;
+    src: url(font/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: qbolds;
+    src: url(font/Quicksand_Bold.otf);
+}
+
+@font-face {
+    font-family: qboldi;
+    src: url(font/Quicksand_Bold_Oblique.otf);
+}
+
+@font-face {
+    font-family: exbold;
+    src: url(font/Quicksand_Book.otf);
+}
+
+/* -- */
+
+/* cont */
+
+.pilihan {
+    margin-left: 30px;
+    margin-top: -70px;
+}
+
+.cont.active {
+    background-color: #2a2a2a;
+}
+
+.cont {
+    z-index: 12;
+    height: 70px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #fff;
+    margin-left: 5px;
+}
+
+.cont img {
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+/* -- */
+/* btime */
+
+.btime {
+    background: linear-gradient(#4e4c4c, #2a2a2a);
+    width: 100%;
+    height: 150px;
+
+}
+
+.boxb {
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.boxb p {
+    color: white;
+    font-weight: bold;
+}
+
+#button-cari {
+    margin-top: 25px;
+    background-color: #3AACFF;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 40px 18px 40px;
+    font-weight: bold
+}
+
+/* -- */
+
+/* booking */
+.logo img {
+    margin-top: 35px;
+    width: 230px;
+    height: 150px;
+    margin-left: 40px;
+}
+
+* filter */ .boxf {
+    color: black;
+    height: 900px;
+}
+
+.boxf h5 {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.boxtransport {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.boxh {
+    margin-top: 20px;
+    color: black;
+    border: 1px solid black;
+    height: 30px;
+    letter-spacing: 1px;
+}
+
+.boxh img {
+    height: 13px;
+    margin-top: -2px;
+}
+
+.boxh p {
+    margin-top: 3px;
+}
+
+.transport {
+    font-family: qbolds;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.price {
+    margin-left: 50px;
+}
+
+.boxp {
+    margin-top: 35px;
+}
+
+.boxp-img {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 10px;
+}
+
+.boxp h5 {
+    font-size: 15px;
+    font-family: nunito;
+    font-weight: bold;
+}
+
+.days {
+    font-family: nunito;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#btn-cari {
+    margin-left: 15px;
+    margin-top: 25px;
+    background-color: #3AACFF;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px 15px 25px;
+    font-weight: bold
+}
+
+
+#btnpesan {
+    float: right;
+    margin-right: 10px;
+    margin-top: -25px;
+    background-color: #d9534f;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px 15px 25px;
+    font-weight: bold
+}
+
+
+
+
+/* -- */
+/* bintang */
+
+
+/* -- */
+
+/* bawah */
+.kelebihan {
+    background-color: #1c92e8;
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    color: white;
+}
+
+.text-1 h5 {
+    margin-top: 45px;
+    font-weight: bold
+}
+
+
+.text-1 p {
+    line-height: 20px;
+}
+
+.text-1 h1 {
+    background-color: #3AACFF;
+    width: 10px;
+    height: 30px;
+}
+
+.garisbiru {
+    float: right;
+    margin-right: -20px;
+    margin-top: -100px;
+    background-color: rgb(25, 73, 107);
+    height: 110px;
+    width: 2px;
+
+}
+
+/* -- */
+
+/* -- */

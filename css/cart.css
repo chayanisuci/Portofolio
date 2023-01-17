@@ -1,0 +1,81 @@
+ /* font */
+ @font-face {
+     font-family: nunito;
+     src: url(font/NunitoSans-Regular.ttf);
+ }
+
+ @font-face {
+     font-family: nunitobold;
+     src: url(font/NunitoSans-SemiBold.ttf);
+ }
+
+ @font-face {
+     font-family: qdash;
+     src: url(font/Quicksand_Dash.otf);
+ }
+
+ @font-face {
+     font-family: qbolds;
+     src: url(font/Quicksand_Bold.otf);
+ }
+
+ @font-face {
+     font-family: qboldi;
+     src: url(font/Quicksand_Bold_Oblique.otf);
+ }
+
+ @font-face {
+     font-family: exbold;
+     src: url(font/Quicksand_Book.otf);
+ }
+
+ /* -- */
+
+ .section_title1 h2 {
+     color: #294375;
+     font-family: qbolds;
+     font-size: 33px;
+ }
+
+ .section_title1 p {
+     background: linear-gradient(#1c92e8, #c1e1e8);
+     height: 5px;
+     margin-left: 620px;
+     margin-top: 10px;
+ }
+
+
+ .cart {
+     margin: 0;
+     margin-top: 20px;
+     overflow: hidden;
+     background: #f3f6f9;
+     font-family: Courier, monospace;
+     font-size: 14px;
+     color: #ccc;
+
+ }
+
+
+ .wrapper {
+     display: block;
+     margin: 5em auto;
+     border: 1px solid #555;
+     width: 700px;
+     height: 350px;
+     position: relative;
+ }
+
+ p {
+     text-align: center;
+ }
+
+ .label {
+     height: 1em;
+     padding: .3em;
+     background: black;
+     position: absolute;
+     display: none;
+     color: #333;
+
+ }

@@ -1,0 +1,93 @@
+/* font */
+@font-face {
+    font-family: nunito;
+    src: url(font/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: nunitobold;
+    src: url(font/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: qbolds;
+    src: url(font/Quicksand_Bold.otf);
+}
+
+@font-face {
+    font-family: qboldi;
+    src: url(font/Quicksand_Bold_Oblique.otf);
+}
+
+@font-face {
+    font-family: exbold;
+    src: url(font/Quicksand_Book.otf);
+}
+
+/* -- */
+
+
+
+/* box */
+.boxlogin {
+    float: right;
+    margin-right: 130px;
+    margin-top: 50px;
+    width: 450px;
+    height: 560px;
+    background-color: #fff;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.30),
+        0 15px 15px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+}
+
+.form img {
+    margin-top: 20px;
+    width: 250px;
+    height: 150px;
+}
+
+.form h1 {
+    font-family: qbolds;
+}
+
+.input-group {
+    height: 40px;
+}
+
+.form-control {
+    height: 40px;
+}
+
+/* text */
+
+.tulisan {
+    margin-left: 100px;
+    margin-top: 220px;
+    letter-spacing: 2px;
+    font-family: qbolds;
+}
+
+
+.tulisan p {
+    background-color: #3AACFF;
+    width: 350px;
+    height: 10px;
+
+}
+
+.tulisan h1 {
+    color: #fff;
+    line-height: 1.5;
+    font-size: 50px;
+
+}
+
+#button-login {
+    background-color: #3AACFF;
+    color: white;
+    border-radius: 10px;
+    margin-right: 155px;
+    padding: 15px 25px 15px 25px;
+    font-weight: bold
+}

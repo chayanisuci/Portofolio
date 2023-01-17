@@ -1,0 +1,245 @@
+/* font */
+@font-face {
+    font-family: nunito;
+    src: url(font/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: nunitobold;
+    src: url(font/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: qbolds;
+    src: url(font/Quicksand_Bold.otf);
+}
+
+@font-face {
+    font-family: qboldi;
+    src: url(font/Quicksand_Bold_Oblique.otf);
+}
+
+@font-face {
+    font-family: exbold;
+    src: url(font/Quicksand_Book.otf);
+}
+
+/* -- */
+/* btime */
+
+.btime {
+    background: linear-gradient(#1c92e8, #c1e1e8);
+    width: 100%;
+    height: 150px;
+
+}
+
+.boxb {
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.drop {
+    text-transform: uppercase;
+    display: block;
+    background-color: #fff;
+    border: none;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.cbox {
+    margin-top: 30px;
+}
+
+#button-cari {
+    margin-top: 25px;
+    background-color: #3AACFF;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 40px 18px 40px;
+    font-weight: bold
+}
+
+/* -- */
+
+/* filter */
+.boxf {
+    font-family: nunito;
+    color: black;
+    height: 900px;
+}
+
+.boxf h5 {
+    font-family: qbolds;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.boxf p {
+    font-family: nunito;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+/* -- */
+.boxroom {
+    font-family: qbolds;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.boxh {
+    font-family: nunito;
+    margin-top: 20px;
+    color: black;
+    border: 1px solid black;
+    height: 30px;
+    letter-spacing: 1px;
+}
+
+.boxh img {
+    height: 13px;
+    margin-top: -2px;
+}
+
+.boxh p {
+    margin-top: 5px;
+}
+
+#btn-cari {
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: #3AACFF;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    font-weight: bold
+}
+
+/* card */
+.boxt {
+    font-family: qbolds;
+    width: 1000px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 !important;
+}
+
+.boxt2 {
+    width: 500px;
+    height: 222px;
+    background-color: #FFFFFF;
+    margin-left: -15px;
+    padding: 0 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.boxt2 h3 {
+    margin-left: 15px;
+}
+
+.lokasi {
+    font-family: nunito;
+    margin-left: -10px;
+}
+
+.jam {
+    font-family: nunito;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.htm {
+    font-family: nunito;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.wkday {
+    font-family: nunito;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.price {
+    font-family: nunito;
+    margin-left: -30px;
+    margin-top: 19px;
+}
+
+.wkend {
+    font-family: nunito;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 48px;
+    margin-top: -5px;
+}
+
+.price2 {
+    font-family: nunito;
+    margin-left: -30px;
+    margin-top: -2px;
+}
+
+#btn-pesan {
+    float: right;
+    margin-top: -60px;
+    background-color: #d9534f;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px 15px 25px;
+    font-weight: bold
+}
+
+/* -- */
+
+/* box kiri */
+.box-news {
+    height: 520px;
+    width: 275px;
+    margin-top: -70px;
+    box-shadow: 0 5px 5px rgba(60, 63, 63, 0.2),
+        0 10px 5px rgba(105, 98, 98, 0.22);
+}
+
+.line {
+    background: linear-gradient(#1c92e8, #c1e1e8);
+    width: 50px;
+    height: 8px;
+    margin-left: 110px
+}
+
+.box-news h3 {}
+
+.news {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 260px;
+    height: 100px;
+}
+
+.news img {
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.news p {
+    font-family: nunito;
+    margin-top: -10px;
+    color: black;
+}
+
+.news h5 {
+    font-weight: bold;
+}
+
+
+/* -- */

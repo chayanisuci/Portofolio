@@ -1,0 +1,240 @@
+/* header */
+/* font */
+@font-face {
+    font-family: nunito;
+    src: url(font/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: nunitobold;
+    src: url(font/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: qbolds;
+    src: url(font/Quicksand_Bold.otf);
+}
+
+@font-face {
+    font-family: qboldi;
+    src: url(font/Quicksand_Bold_Oblique.otf);
+}
+
+@font-face {
+    font-family: exbold;
+    src: url(font/Quicksand_Book.otf);
+}
+
+/* -- */
+/* btime */
+
+.btime {
+    background: linear-gradient(#4e4c4c, #2a2a2a);
+    width: 100%;
+    height: 150px;
+
+}
+
+.boxb {
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.boxb p {
+    color: white;
+    font-weight: bold;
+}
+
+#button-cari {
+    margin-top: 25px;
+    background-color: #3AACFF;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 40px 18px 40px;
+    font-weight: bold
+}
+
+/* -- */
+/* filter */
+.boxf {
+    font-family: nunito;
+    color: black;
+    height: 900px;
+}
+
+.boxf h5 {
+    font-family: qbolds;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.boxf p {
+    font-family: nunito;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.boxroom {
+    font-family: qbolds;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.boxh {
+    font-family: nunito;
+    margin-top: 20px;
+    color: black;
+    border: 1px solid black;
+    height: 30px;
+    letter-spacing: 1px;
+}
+
+.boxh img {
+    height: 13px;
+    margin-top: -2px;
+}
+
+.boxh p {
+    margin-top: 3px;
+}
+
+.namaresto {
+    margin-top: 5px;
+    font-family: qbolds;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.price {
+    font-family: qbolds;
+    color: #dd6560;
+    font-size: 22px;
+
+}
+
+.timer {
+    margin-top: 20px;
+}
+
+.timer p {
+    background-color: #aaa29d;
+    padding-top: 3px;
+    width: 120px;
+    height: 25px;
+    font-family: qbolds;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+
+.boxp {
+    margin-top: 35px;
+}
+
+.boxp img {
+    height: 240px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 15px;
+}
+
+.boxp-text {
+    margin-top: 120px;
+    margin-left: -15px;
+    color: #fff;
+    background-color: #1c92e8;
+    font-size: 15px;
+    width: 280px;
+    height: 40px;
+}
+
+#btn-cari {
+    margin-left: 35px;
+    margin-top: 25px;
+    background-color: #3AACFF;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px 15px 25px;
+    font-weight: bold
+}
+
+
+#btnpesan {
+    float: right;
+    margin-right: 10px;
+    margin-top: -5px;
+    background-color: #d9534f;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px 15px 25px;
+    font-weight: bold
+}
+
+/* Pagination links */
+.pagination a {
+    font-family: qbolds;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+/* -- */
+/* bintang */
+
+
+/* -- */
+
+/* bawah */
+.kelebihan {
+    background-color: #1c92e8;
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    color: white;
+}
+
+.text-1 h5 {
+    margin-top: 45px;
+    font-weight: bold
+}
+
+
+.text-1 p {
+    line-height: 20px;
+}
+
+.text-1 h1 {
+    background-color: #3AACFF;
+    width: 10px;
+    height: 30px;
+}
+
+.garisbiru {
+    float: right;
+    margin-right: -20px;
+    margin-top: -100px;
+    background-color: rgb(25, 73, 107);
+    height: 110px;
+    width: 2px;
+
+}
+
+/* -- */

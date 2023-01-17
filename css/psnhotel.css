@@ -1,0 +1,295 @@
+/* font */
+@font-face {
+    font-family: nunito;
+    src: url(font/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: nunitobold;
+    src: url(font/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: qbolds;
+    src: url(font/Quicksand_Bold.otf);
+}
+
+@font-face {
+    font-family: qboldi;
+    src: url(font/Quicksand_Bold_Oblique.otf);
+}
+
+@font-face {
+    font-family: exbold;
+    src: url(font/Quicksand_Book.otf);
+}
+
+/* -- */
+
+/* filter */
+.boxf img {
+    margin-top: 35px;
+    width: 230px;
+    height: 150px;
+}
+
+.boxfilter {
+    margin-top: 20px;
+    background-color: #1c92e8;
+    height: 380px;
+    margin-left: -10px;
+    width: 250px;
+}
+
+.boxfilter h4 {
+    font-family: nunito;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.boxfilter p {
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: nunito;
+}
+
+.boxfilter h6 {
+    background-color: rgb(10, 34, 51);
+    margin-left: 20px;
+    height: 7px;
+    width: 190px;
+}
+
+.boxpeta {
+    border: 8px solid #1c92e8;
+    margin-top: 60px;
+    width: 250px;
+    height: 190px;
+    border-radius: 20px;
+    margin-left: -10px;
+}
+
+.boxpeta img {
+    width: 195px;
+    height: 190px;
+    margin-top: -60px;
+    margin-left: 20px;
+
+}
+
+#btn-maps {
+    background-color: #1c92e8;
+    color: white;
+    font-family: nunito;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px
+}
+
+.boxf h3 {
+    margin-left: 35px;
+    font-weight: bold;
+    font-family: qbolds;
+
+}
+
+
+.boxh {
+    margin-top: 20px;
+    color: black;
+    border: 1px solid black;
+    height: 30px;
+    letter-spacing: 1px;
+}
+
+.boxh img {
+    height: 13px;
+    margin-top: -2px;
+}
+
+.boxh p {
+    margin-top: 3px;
+}
+
+.namahotel {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.boxp {
+    margin-top: 35px;
+}
+
+.boxp-img {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 10px;
+}
+
+.boxp-text {
+    margin-top: 120px;
+    margin-left: -15px;
+    color: #fff;
+    background-color: #1c92e8;
+    font-size: 15px;
+    width: 280px;
+    height: 40px;
+}
+
+.namahotel h1 {
+    margin-top: 30px;
+    font-family: qbolds;
+    color: #294375;
+    font-weight: bold;
+}
+
+.namahotel p {
+    margin-top: 25px;
+    font-family: nunito;
+    font-size: 15px;
+}
+
+.namahotel img {
+    height: 25px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: -10px;
+
+}
+
+.texthotel p {
+    margin-top: 20px;
+    font-family: nunito;
+    font-weight: normal;
+    color: black;
+    line-height: 2;
+    word-spacing: 1px;
+    font-size: 15px;
+}
+
+.fasilitas h4 {
+    margin-top: 20px;
+    font-family: nunito;
+    font-weight: bold;
+}
+
+.fasilitas p {
+    font-family: nunitobold;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
+.garishr {
+    margin-top: -5px;
+    background-color: #868686;
+    border: 1px solid #868686;
+}
+
+#btn-cari {
+    margin-left: 45px;
+    margin-top: 25px;
+    background-color: #3AACFF;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px 15px 25px;
+    font-weight: bold
+}
+
+
+#btnpesan {
+    float: right;
+    margin-right: 10px;
+    margin-top: 25px;
+    background-color: #d9534f;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px 15px 25px;
+    font-weight: bold
+}
+
+
+
+
+/* -- */
+/* swiper */
+.swiper {
+    height: 300px;
+
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    background-size: cover;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/* -- */
+/* bintang */
+
+
+/* -- */
+
+/* bawah */
+.kelebihan {
+    background-color: #1c92e8;
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    color: white;
+}
+
+.text-1 h5 {
+    margin-top: 45px;
+    font-weight: bold
+}
+
+
+.text-1 p {
+    line-height: 20px;
+}
+
+.text-1 h1 {
+    background-color: #3AACFF;
+    width: 10px;
+    height: 30px;
+}
+
+.garisbiru {
+    float: right;
+    margin-right: -20px;
+    margin-top: -100px;
+    background-color: rgb(25, 73, 107);
+    height: 110px;
+    width: 2px;
+
+}
+
+/* -- */
